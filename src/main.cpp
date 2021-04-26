@@ -19,20 +19,19 @@ static std::string stringify(const PString &broken)
 static void print_help()
 {
     cerr << "sipcmd2 options: " << endl
-         << "-u <name>    --user <name>            username (required)" << endl
-         << "-c <passw>   --password <passw>       password for registration" << endl
-         << "-l <addr>    --localaddress <addr>    local address to listen on" << endl
-         << "-o <file>    --opallog <file>         enable extra opal library logging to file" << endl
-         << "-p <port>    --listenport <port>      the port to listen on" << endl
-         << "-P <proto>   -- protocol <proto>      sip/h323/rtp (required)" << endl
-         << "-r <nmbr>    --remoteparty <nmbr>     the party to call to" << endl
-         << "-x <prog>    --execute <prog>         program to follow" << endl
-         << "-d <prfx>    --audio-prefix <prfx>    recorded audio filename prefix" << endl
-         << "-f <file>    --file <file>            the name of played sound file" << endl
-         << "-g <addr>    --gatekeeper <addr>      gatekeeper to use" << endl
-         << "-w <addr>    --gateway <addr>         gateway to use" << endl
-         << "-a <name>    --alias <name>           username alias" << endl
-         << "-m <codec>   --mediaformat <codec>   select codec" << endl 
+         << "-u <name>   --user <name>         username (required)" << endl
+         << "-c <passw>  --password <passw>    password for registration" << endl
+         << "-a <name>   --alias <name>        username alias" << endl
+         << "-l <addr>   --localaddress <addr> local address to listen on" << endl
+         << "-o <file>   --opallog <file>      enable extra opal library logging to file" << endl
+         << "-p <port>   --listenport <port>   the port to listen on" << endl
+         << "-P <proto>  -- protocol <proto>   sip/h323/rtp (required)" << endl
+         << "-r <nmbr>   --remoteparty <nmbr>  the party to call to" << endl
+         << "-x <prog>   --execute <prog>      program to follow" << endl
+         << "-d <prfx>   --audio-prefix <prfx> recorded audio filename prefix" << endl
+         << "-f <file>   --file <file>         the name of played sound file" << endl
+         << "-g <addr>   --gatekeeper <addr>   gatekeeper to use" << endl
+         << "-w <addr>   --gateway <addr>      gateway to use" << endl
          << endl;
 
     cerr << "The EBNF definition of the program syntax:" << endl
