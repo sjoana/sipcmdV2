@@ -33,7 +33,6 @@ static void print_help()
          << "-w <addr>    --gateway <addr>         gateway to use" << endl
          << "-a <name>    --alias <name>           username alias" << endl << endl
          << "-m <codec>   --mediaformat <codec>   select codec" << endl << endl;
-         << endl;
 
     cerr << "The EBNF definition of the program syntax:" << endl
          << "<prog>  := cmd ';' <prog> | " << endl
