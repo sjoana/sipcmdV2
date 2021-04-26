@@ -31,8 +31,8 @@ static void print_help()
          << "-f <file>    --file <file>            the name of played sound file" << endl
          << "-g <addr>    --gatekeeper <addr>      gatekeeper to use" << endl
          << "-w <addr>    --gateway <addr>         gateway to use" << endl
-         << "-a <name>    --alias <name>           username alias" << endl << endl
-         << "-m <codec>   --mediaformat <codec>   select codec" << endl << endl;
+         << "-a <name>    --alias <name>           username alias" << endl
+         << "-m <codec>   --mediaformat <codec>   select codec" << endl;
 
     cerr << "The EBNF definition of the program syntax:" << endl
          << "<prog>  := cmd ';' <prog> | " << endl
