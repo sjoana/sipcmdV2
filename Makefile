@@ -6,7 +6,7 @@ LIBS=-lopal -lpt
 IFLAGS=-I/usr/include/opal -I/usr/include/ptlib -Isrc/
 SOURCES=src/main.cpp src/commands.cpp src/channels.cpp
 OBJECTS=$(SOURCES:.cpp=.o)
-EXECUTABLE=sipcmd2
+EXECUTABLE=sipcmdV2
 DEBUG=-g -DDEBUG
 
 all: $(SOURCES) $(EXECUTABLE)
