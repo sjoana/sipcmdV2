@@ -148,8 +148,6 @@ Parses to the following:
 <hr>
 <br>
 <br>
-Credits for sipcmd creator tmakkonen in project <a href="https://github.com/tmakkonen/sipcmd">sipcmd</a>.
-Credits for sipcmd2 creator guisousanunes in project <a href="https://github.com/guisousanunes/sipcmd2">sipcmd2</a>.
+Credits for sipcmd creator <b>tmakkonen</b> in project <a href="https://github.com/tmakkonen/sipcmd">sipcmd</a> and for sipcmd2 creator <b>guisousanunes</b> in project <a href="https://github.com/guisousanunes/sipcmd2">sipcmd2</a>.
 </body>
 </html>
-"# sipcmdV2" 
