@@ -1,9 +1,9 @@
 <html>
 <body>
-<h2>sipcmd2 - simple SIP command line softphone</h2>
+<h2>sipcmdV2 - simple SIP command line softphone</h2>
 <h3>Introduction</h3>
 <p>
-Updated sipcmd command line soft phone that makes phone calls, accepts calls, enters DTMF digits, plays back WAV files and records them. A useful testing tool for VoIP systems. Runs on Linux.
+Updated sipcmd command line soft phone to support mediaformat. This lib is a merge between <b>sipcmd</b> and <b>sipcmd2</b>. That makes phone calls, accepts calls, enters DTMF digits, plays back WAV files and records them. A useful testing tool for VoIP systems. Runs on Linux.
 </p>
 <h3>Install</h3>
 <h4>Dependencies</h4>
@@ -31,7 +31,7 @@ Updated sipcmd command line soft phone that makes phone calls, accepts calls, en
 <br>
 <h4>Download</h4>
 <code>
-git clone https://github.com/guisousanunes/sipcmd2.git
+git clone https://github.com/guisousanunes/sipcmdV2.git
 </code>
 <br>
 <br>
@@ -64,6 +64,7 @@ If you compile the dependencies from source, make sure that libpt and libopal ar
 -f <file> --file <file>         the name of played sound file
 -g <addr> --gatekeeper <addr>   gatekeeper to use
 -w <addr> --gateway <addr>      gateway to use
+-m  -mediaformat  one or more codecs to use, separated by semicolon; wildcards are supported (e.g. -m "G.711*;G.722*")
 </pre>
 <p>
 <code>-l</code> or <code>-p</code> without <code>-x</code> assumes answer mode. Additional <code>-r</code> forces caller id checking. <code>-r</code> without <code>-l</code>, <code>-p</code> or <code>-x</code> assumes call mode.
@@ -71,7 +72,7 @@ If you compile the dependencies from source, make sure that libpt and libopal ar
 To register to a gateaway, specify <code>-c</code>, <code>-g</code> and <code>-w</code>
 <br><b>Example:</b><br><br>
 <code>
-./sipcmd -P sip -u [username] -c [password] -w [server] -x "c<number>;w200;d12345"
+./sipcmdV2 -P sip -u [username] -c [password] -w [server] -x "c<number>;w200;d12345"
 </code>
 </p>
 
@@ -146,7 +147,9 @@ Parses to the following:
 </ol>
 <hr>
 <br>
+<br>
 Credits for sipcmd creator tmakkonen in project <a href="https://github.com/tmakkonen/sipcmd">sipcmd</a>.
+Credits for sipcmd2 creator guisousanunes in project <a href="https://github.com/guisousanunes/sipcmd2">sipcmd2</a>.
 </body>
 </html>
 "# sipcmdV2" 
