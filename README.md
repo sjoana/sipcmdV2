@@ -31,7 +31,7 @@ Updated sipcmd command line soft phone to support mediaformat. This lib is a mer
 <br>
 <h4>Download</h4>
 <code>
-git clone https://github.com/guisousanunes/sipcmdV2.git
+git clone https://github.com/sjoana/sipcmdV2
 </code>
 <br>
 <br>
